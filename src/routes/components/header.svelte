@@ -8,6 +8,9 @@
     function play() {
         goto("/play");
     }
+    function requirements() {
+        goto("/server-requirements");
+    }
 </script>
 
 <div class="header">
@@ -15,12 +18,15 @@
     <button on:click={play} id="playButton">Play Now</button><br />
     <div class="button">
         <button on:click={home} id="homeButton">Home</button>
+        <button on:click={requirements} id="requirementsButton"
+            >Server Requirements</button
+        >
     </div>
 </div>
 
 <style>
     .header {
-        height: 35vh;
+        height: 30vh;
         padding-left: 20px;
         background-image: linear-gradient(
                 rgba(0, 0, 0, 0.3),
@@ -33,16 +39,19 @@
     }
     .header img {
         margin-top: 20px;
-        width: 280px;
+        width: 200px;
+        rotate: -15deg;
     }
     .header button {
         height: 50px;
-        width: 100px;
+        width: auto;
     }
     #playButton {
         margin-left: 800px;
+        width: 100px;
     }
     #homeButton {
         margin-top: 15px;
+        width: 100px;
     }
 </style>
