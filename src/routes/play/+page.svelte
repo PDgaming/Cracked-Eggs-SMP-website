@@ -35,7 +35,7 @@
 <style>
     .join-text {
         font-family: "Minecraft-Regular";
-        width: 37vw;
+        width: 500px;
         padding-top: 25px;
         padding-left: 25px;
         margin-bottom: 30px;
