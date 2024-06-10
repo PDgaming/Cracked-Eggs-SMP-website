@@ -1,5 +1,5 @@
-<center>
-    <h1>Join Our Minecraft Server At</h1>
+<h1>Join Our Minecraft Server At</h1>
+<div class="join">
     <h2>
         Play With Your Friends on the Cracked Eggs Server, all you need to do is
         log in!
@@ -12,4 +12,10 @@
         2. Enter Cracked_eggs.aternos.me<br /> into the server address box and click
         Done
     </h2>
-</center>
+</div>
+
+<style>
+    .join {
+        background-image: url("./mc-dirt-block-texture.jpg");
+    }
+</style>
