@@ -12,6 +12,7 @@
 <style>
 	.app {
 		min-height: 100vh;
+		background-color: rgb(24, 24, 24);
 	}
 	main {
 		flex: 1;
@@ -21,8 +22,5 @@
 		max-width: 64rem;
 		margin: 0 auto;
 		box-sizing: border-box;
-	}
-	:global(body) {
-		background-color: rgb(24, 24, 24);
 	}
 </style>

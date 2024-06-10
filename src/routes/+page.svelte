@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>Cracked Eggs</title>
+	<title>Cracked Eggs - Home</title>
 </svelte:head>
 <center>
 	<h1>Cracked Eggs Minecraft</h1>

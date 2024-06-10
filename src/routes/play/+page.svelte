@@ -3,6 +3,9 @@
     import logo from "./logo.png";
 </script>
 
+<svelte:head>
+    <title>Cracked Eggs - Play</title>
+</svelte:head>
 <div class="play">
     <h5>Join Our Minecraft Server At</h5>
     <div class="join">
