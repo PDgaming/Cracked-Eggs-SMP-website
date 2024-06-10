@@ -1,5 +1,6 @@
 <script>
     import { goto } from "$app/navigation";
+    import logo from "./logo.jpeg";
 
     function home() {
         goto("/");
@@ -10,7 +11,7 @@
 </script>
 
 <div class="header">
-    <img alt="Cracked_Eggs_Img" />
+    <img src={logo} alt="Cracked_Eggs_Img" />
     <button on:click={home}>Home</button>
     <button on:click={play}>Play Now</button>
 </div>
@@ -19,5 +20,8 @@
     .header {
         background-color: brown;
         height: 35vh;
+    }
+    .header img {
+        width: 100px;
     }
 </style>

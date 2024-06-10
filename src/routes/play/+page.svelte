@@ -1,6 +1,7 @@
 <script>
     import "../../font.css";
     import "./styles.css";
+    import logo from "./logo.jpeg";
 </script>
 
 <div class="play">
@@ -28,7 +29,7 @@
         </div>
     </div>
     <div class="server-image">
-        <img alt="Server-Image" />
+        <img src={logo} alt="Server-logo" />
     </div>
 </div>
 
@@ -52,12 +53,16 @@
         margin-left: 50px;
     }
     .server-image {
-        background-color: red;
-        height: 40vh;
-        width: 40vw;
+        height: 280px;
+        width: 550px;
         position: relative;
-        top: -295px;
-        left: 570px;
+        top: -300px;
+        left: 550px;
+        border: 5px solid black;
+    }
+    .server-image img {
+        height: 270px;
+        width: 540px;
     }
     .steps span {
         color: rgb(253, 213, 84);
@@ -67,7 +72,7 @@
         margin-left: -50px;
         margin-right: -50px;
         width: auto;
-        height: 60vh;
+        height: 310px;
         color: white;
         margin-bottom: 100px;
     }
