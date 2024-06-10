@@ -44,11 +44,15 @@
 	Connect: Click "Join Server" and start your adventure!
 </p>
 <h3>Ready to Crack Open Some Fun?</h3>
-<p style="margin-bottom: 50px">
+<p>
 	Join the Cracked Eggs Minecraft Server today and experience the joy of
 	vanilla Minecraft with a supportive and collaborative community. We can't
 	wait to see what you build!
 </p>
+<h3>Join Our Discord</h3>
+<a href="https://discord.gg/NNWTvFnB23" style="margin-bottom: 50px;"
+	>https://discord.gg/NNWTvFnB23</a
+>
 
 <style>
 	center h1 {

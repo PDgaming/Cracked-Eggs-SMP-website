@@ -1,5 +1,4 @@
 <script>
-	import "./styles.css";
 	import Header from "./components/header.svelte";
 </script>
 
@@ -22,5 +21,8 @@
 		max-width: 64rem;
 		margin: 0 auto;
 		box-sizing: border-box;
+	}
+	:global(body) {
+		background-color: rgb(24, 24, 24);
 	}
 </style>

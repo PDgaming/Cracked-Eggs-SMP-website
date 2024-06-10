@@ -11,22 +11,26 @@
     function requirements() {
         goto("/server-requirements");
     }
+    function rules() {
+        goto("/rules");
+    }
 </script>
 
 <div class="header">
     <img src={logo} alt="Cracked_Eggs_Img" />
-    <button on:click={play} id="playButton">Play Now</button><br />
     <div class="button">
         <button on:click={home} id="homeButton">Home</button>
         <button on:click={requirements} id="requirementsButton"
             >Server Requirements</button
         >
+        <button on:click={rules} id="rulesButton">Rules</button>
+        <button on:click={play} id="playButton">Play Now</button>
     </div>
 </div>
 
 <style>
     .header {
-        height: 30vh;
+        height: 200px;
         padding-left: 20px;
         background-image: linear-gradient(
                 rgba(0, 0, 0, 0.3),
@@ -44,14 +48,12 @@
     }
     .header button {
         height: 50px;
-        width: auto;
-    }
-    #playButton {
-        margin-left: 800px;
         width: 100px;
     }
     #homeButton {
         margin-top: 15px;
-        width: 100px;
+    }
+    #requirementsButton {
+        width: auto;
     }
 </style>
