@@ -1,6 +1,6 @@
 <script>
     import "../../font.css";
-    import logo from "./logo.jpeg";
+    import logo from "./logo.png";
 </script>
 
 <div class="play">
@@ -57,7 +57,6 @@
         position: relative;
         top: -300px;
         left: 550px;
-        border: 5px solid black;
     }
     .server-image img {
         height: 270px;

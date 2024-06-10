@@ -1,6 +1,6 @@
 <script>
     import { goto } from "$app/navigation";
-    import logo from "./logo.jpeg";
+    import logo from "./logo.png";
 
     function home() {
         goto("/");
