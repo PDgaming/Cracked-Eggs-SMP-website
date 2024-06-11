@@ -43,7 +43,6 @@
         width: 40vw;
         padding-top: 25px;
         padding-left: 25px;
-        margin-bottom: 30px;
         background-color: blue;
         overflow-y: scroll;
     }
@@ -68,7 +67,7 @@
         left: 44vw;
     }
     .server-image img {
-        height: 40vh;
+        height: 30vh;
         width: 45vw;
     }
     .steps span {
@@ -78,14 +77,15 @@
         margin-left: -190px;
         margin-top: 30px;
         width: auto;
-        height: 310px;
         color: white;
-        margin-bottom: 100px;
     }
     @media screen and (max-width: 1280px) {
         .play {
             margin: auto -70px;
             margin-top: 30px;
+        }
+        .server-image img {
+            height: 38vh;
         }
     }
     @media screen and (max-width: 1260px) {
