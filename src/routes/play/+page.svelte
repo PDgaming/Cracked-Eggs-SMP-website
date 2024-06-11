@@ -73,7 +73,7 @@
         color: rgb(253, 213, 84);
     }
     .play {
-        margin: auto -190px;
+        margin-left: -190px;
         margin-top: 30px;
         width: auto;
         height: 310px;
@@ -86,9 +86,99 @@
             margin-top: 30px;
         }
     }
+    @media screen and (max-width: 1260px) {
+        .play {
+            margin: auto -60px;
+            margin-top: 30px;
+        }
+    }
+    @media screen and (max-width: 1260px) {
+        .play {
+            margin: auto -50px;
+            margin-top: 30px;
+        }
+    }
+    @media screen and (max-width: 1220px) {
+        .play {
+            margin: auto -40px;
+            margin-top: 30px;
+        }
+    }
+    @media screen and (max-width: 1200px) {
+        .play {
+            margin: auto -35px;
+            margin-top: 30px;
+        }
+    }
+    @media screen and (max-width: 1190px) {
+        .play {
+            margin: auto -30px;
+            margin-top: 30px;
+        }
+    }
+    @media screen and (max-width: 1180px) {
+        .play {
+            margin: auto -25px;
+            margin-top: 30px;
+        }
+    }
     @media screen and (max-width: 1173px) {
         .server-image {
             top: -20rem;
+        }
+    }
+    @media screen and (max-width: 1170px) {
+        .play {
+            margin: auto -20px;
+            margin-top: 30px;
+        }
+    }
+    @media screen and (max-width: 1160px) {
+        .play {
+            margin: auto -15px;
+            margin-top: 30px;
+        }
+    }
+    @media screen and (max-width: 1150px) {
+        .play {
+            margin: auto -10px;
+            margin-top: 30px;
+        }
+    }
+    @media screen and (max-width: 1130px) {
+        .play {
+            margin: auto 0px;
+            margin-top: 30px;
+        }
+    }
+    @media screen and (max-width: 1110px) {
+        .play {
+            margin: auto 5px;
+            margin-top: 30px;
+        }
+    }
+    @media screen and (max-width: 1100px) {
+        .play {
+            margin: auto 10px;
+            margin-top: 30px;
+        }
+    }
+    @media screen and (max-width: 1090px) {
+        .play {
+            margin: auto 15px;
+            margin-top: 30px;
+        }
+    }
+    @media screen and (max-width: 1080px) {
+        .play {
+            margin: auto 20px;
+            margin-top: 30px;
+        }
+    }
+    @media screen and (max-width: 1070px) {
+        .play {
+            margin: auto 25px;
+            margin-top: 30px;
         }
     }
 </style>
