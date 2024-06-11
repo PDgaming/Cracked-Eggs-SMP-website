@@ -6,6 +6,7 @@
 <svelte:head>
     <title>Cracked Eggs - Play</title>
 </svelte:head>
+
 <div class="play">
     <h5>Join Our Minecraft Server At</h5>
     <div class="join">
@@ -38,7 +39,7 @@
 <style>
     .join-text {
         font-family: "Minecraft-Regular";
-        width: 500px;
+        width: 40vw;
         padding-top: 25px;
         padding-left: 25px;
         margin-bottom: 30px;
@@ -50,31 +51,44 @@
             ),
             url("./mc-dirt-block-texture.jpg");
         border: 5px solid black;
+        width: 91vw;
+        height: 350px;
     }
     .steps {
         margin-left: 50px;
     }
     .server-image {
         height: 280px;
-        width: 550px;
+        width: 45vw;
         position: relative;
-        top: -300px;
-        left: 550px;
+        top: -20rem;
+        left: 44vw;
+        background-color: orange;
     }
     .server-image img {
         height: 270px;
-        width: 540px;
+        width: 45vw;
     }
     .steps span {
         color: rgb(253, 213, 84);
     }
     .play {
+        margin: auto -190px;
         margin-top: 30px;
-        margin-left: -50px;
-        margin-right: -50px;
         width: auto;
         height: 310px;
         color: white;
         margin-bottom: 100px;
+    }
+    @media screen and (max-width: 1280px) {
+        .play {
+            margin: auto -70px;
+            margin-top: 30px;
+        }
+    }
+    @media screen and (max-width: 1173px) {
+        .server-image {
+            top: -20rem;
+        }
     }
 </style>

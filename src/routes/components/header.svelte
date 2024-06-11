@@ -18,14 +18,16 @@
 
 <div class="header">
     <img src={logo} alt="Cracked_Eggs_Img" />
-    <div class="button">
-        <button on:click={home} id="homeButton">Home</button>
-        <button on:click={requirements} id="requirementsButton"
-            >Server Requirements</button
-        >
-        <button on:click={rules} id="rulesButton">Rules</button>
-        <button on:click={play} id="playButton">Play Now</button>
-    </div>
+    <center>
+        <div class="button">
+            <button on:click={home} id="homeButton">Home</button>
+            <button on:click={requirements} id="requirementsButton"
+                >Server Requirements</button
+            >
+            <button on:click={rules} id="rulesButton">Rules</button>
+            <button on:click={play} id="playButton">Play Now</button>
+        </div>
+    </center>
 </div>
 
 <style>
@@ -46,14 +48,37 @@
         width: 200px;
         rotate: -15deg;
     }
-    .header button {
+    .button {
+        margin-top: 15px;
+        display: inline;
+        justify-content: space-between;
+    }
+    .button button {
         height: 50px;
         width: 100px;
     }
-    #homeButton {
-        margin-top: 15px;
-    }
     #requirementsButton {
         width: auto;
+    }
+    @media screen and (max-width: 521px) {
+        .header button {
+            width: 90px;
+        }
+    }
+    @media screen and (max-width: 490px) {
+        .button button {
+            width: auto;
+        }
+        .button {
+            width: 400px;
+        }
+    }
+    @media screen and (max-width: 440px) {
+        .button {
+            width: 360px;
+        }
+        .header {
+            height: 250px;
+        }
     }
 </style>
