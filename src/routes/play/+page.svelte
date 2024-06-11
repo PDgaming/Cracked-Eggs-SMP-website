@@ -205,4 +205,34 @@
             margin-top: 30px;
         }
     }
+    @media screen and (max-width: 800px) {
+        .play {
+            margin: auto 35px;
+            margin-top: 30px;
+        }
+    }
+    @media screen and (max-width: 700px) {
+        .play {
+            margin: auto 33px;
+            margin-top: 30px;
+        }
+    }
+    @media screen and (max-width: 630px) {
+        .play {
+            margin: auto 30px;
+            margin-top: 30px;
+        }
+    }
+    @media screen and (max-width: 580px) {
+        .play {
+            margin: auto 25px;
+            margin-top: 30px;
+        }
+    }
+    @media screen and (max-width: 490px) {
+        .play {
+            margin: auto 22px;
+            margin-top: 30px;
+        }
+    }
 </style>
