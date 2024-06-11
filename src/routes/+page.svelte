@@ -70,6 +70,7 @@
 	}
 	h3 {
 		color: rgb(253, 213, 84);
+		font-family: "Minecraft-Bold";
 	}
 	#free {
 		color: rgb(250, 76, 76);

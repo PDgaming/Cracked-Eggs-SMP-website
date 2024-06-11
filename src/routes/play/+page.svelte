@@ -28,7 +28,7 @@
             </div>
             <br />
             <h4>Server Address</h4>
-            <h5>Cracked_eggs.alternos.me</h5>
+            <h5><span>Cracked_eggs.alternos.me </span></h5>
         </div>
     </div>
     <div class="server-image">
@@ -43,8 +43,10 @@
         width: 40vw;
         padding-top: 25px;
         padding-left: 25px;
-        background-color: blue;
         overflow-y: scroll;
+    }
+    .join-text span {
+        color: rgb(245, 102, 102);
     }
     .join {
         background-image: linear-gradient(
