@@ -39,10 +39,13 @@
 <style>
     .join-text {
         font-family: "Minecraft-Regular";
+        height: 290px;
         width: 40vw;
         padding-top: 25px;
         padding-left: 25px;
         margin-bottom: 30px;
+        background-color: blue;
+        overflow-y: scroll;
     }
     .join {
         background-image: linear-gradient(
@@ -52,7 +55,7 @@
             url("./mc-dirt-block-texture.jpg");
         border: 5px solid black;
         width: 91vw;
-        height: 350px;
+        height: 300px;
     }
     .steps {
         margin-left: 50px;
@@ -61,12 +64,11 @@
         height: 280px;
         width: 45vw;
         position: relative;
-        top: -20rem;
+        top: -270px;
         left: 44vw;
-        background-color: orange;
     }
     .server-image img {
-        height: 270px;
+        height: 40vh;
         width: 45vw;
     }
     .steps span {
@@ -124,7 +126,7 @@
     }
     @media screen and (max-width: 1173px) {
         .server-image {
-            top: -20rem;
+            top: -17rem;
         }
     }
     @media screen and (max-width: 1170px) {
