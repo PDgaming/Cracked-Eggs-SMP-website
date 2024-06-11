@@ -181,4 +181,28 @@
             margin-top: 30px;
         }
     }
+    @media screen and (max-width: 1050px) {
+        .play {
+            margin: auto 35px;
+            margin-top: 30px;
+        }
+    }
+    @media screen and (max-width: 1040px) {
+        .play {
+            margin: auto 40px;
+            margin-top: 30px;
+        }
+    }
+    @media screen and (max-width: 1020px) {
+        .play {
+            margin: auto 45px;
+            margin-top: 30px;
+        }
+    }
+    @media screen and (max-width: 900px) {
+        .play {
+            margin: auto 40px;
+            margin-top: 30px;
+        }
+    }
 </style>
